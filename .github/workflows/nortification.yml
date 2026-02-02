@@ -2,7 +2,7 @@ name: Conference Deadline Notification
 
 on:
   schedule:
-    - cron: '0 */10 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch: # 手動実行も可能
 
 jobs:
