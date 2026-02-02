@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: notification
-      - run: echo "check."
+        run: echo "check."
