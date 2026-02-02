@@ -1,0 +1,13 @@
+name: Conference Deadline Notification
+
+on:
+  schedule:
+    - cron: '0 */10 * * *'
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: notification
+      - run: 'echo "check."'
